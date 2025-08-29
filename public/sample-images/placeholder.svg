@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- T-Shirt Outline -->
+  <defs>
+    <linearGradient id="shirtGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- T-Shirt Shape -->
+  <g transform="translate(200,80)">
+    <!-- Body -->
+    <rect x="0" y="80" width="400" height="440" fill="url(#shirtGradient)" stroke="#cbd5e1" stroke-width="2" rx="20"/>
+    
+    <!-- Collar -->
+    <ellipse cx="200" cy="80" rx="60" ry="30" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    
+    <!-- Left Sleeve -->
+    <rect x="-80" y="40" width="80" height="200" fill="url(#shirtGradient)" stroke="#cbd5e1" stroke-width="2" rx="40"/>
+    
+    <!-- Right Sleeve -->
+    <rect x="400" y="40" width="80" height="200" fill="url(#shirtGradient)" stroke="#cbd5e1" stroke-width="2" rx="40"/>
+    
+    <!-- Chest Line for Calibration -->
+    <line x1="40" y1="200" x2="360" y2="200" stroke="#3b82f6" stroke-width="3" stroke-dasharray="10,5" opacity="0.7"/>
+    
+    <!-- Sample Logo Area -->
+    <rect x="160" y="160" width="80" height="80" fill="none" stroke="#10b981" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+    <text x="200" y="205" text-anchor="middle" font-family="Arial" font-size="12" fill="#10b981" opacity="0.7">Logo Area</text>
+  </g>
+  
+  <!-- Labels -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#64748b">T-Shirt Mockup</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial" font-size="14" fill="#64748b">Front View - เสื้อยืดคอกลม</text>
+  
+  <!-- Measurement Lines -->
+  <g opacity="0.6">
+    <!-- Width measurement -->
+    <line x1="200" y1="570" x2="600" y2="570" stroke="#6366f1" stroke-width="2"/>
+    <line x1="200" y1="565" x2="200" y2="575" stroke="#6366f1" stroke-width="2"/>
+    <line x1="600" y1="565" x2="600" y2="575" stroke="#6366f1" stroke-width="2"/>
+    <text x="400" y="590" text-anchor="middle" font-family="Arial" font-size="12" fill="#6366f1">42 cm (Chest Width)</text>
+  </g>
+</svg>
